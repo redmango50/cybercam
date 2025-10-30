@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font);
+}
+
+::-webkit-scrollbar{
+    width: 0;
+}
+
+:host, :root{
+    --font: "Inter", sans-serif;
+    /* Text Colors */
+    --primary-color: hsl(0 0% 5%);
+    --primary-button-color: hsl(0, 0%, 92%);
+    --secondary-color: hsl(0, 0%, 15%);
+    --text-color: hsl(0, 0%, 25%);;
+    /* Background Colors */
+    --primary-background: hsl(0 0% 80%);
+    --secondary-background: hsl(0 0% 85%);
+    --focus-background: hsl(0 0% 85%);
+    /* Shadow Colors */
+    --primary-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.1);
+    --cart-shadow: 0 4px 15px rgba(0,0,0,0.1);
+   
+    /* Extra sizes */
+    --heading: 3rem;
+    --head-body-width: 450px;
+    --heading-weight: 450;
+}
+
+body{
+    background-color: var(--primary-background);
+}
+
+main{
+    width: 100%;
+    height: fit-content;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    flex: 1;
+}
