@@ -73,22 +73,22 @@ class ReasonSection extends HTMLElement{
     <h3>Reasons</h3>
     <div class="about">
         <div class="cart">
-            <img src="./static-assets/dataprot.svg"/>
+            <img src="../static-assets/dataprot.svg"/>
                 <h2>Data Protection</h2>
                 <p>Protect your personal information because if it's stolen, it can be used against you</p>
         </div>
         <div class="cart">
-            <img src="./static-assets/financial-security-svgrepo-com.svg"/>
+            <img src="../static-assets/financial-security-svgrepo-com.svg"/>
                 <h2>Financial Security</h2>
                 <p>Protect your money and accounts because if they’re hacked, you could lose everything</p>
         </div>
         <div class="cart">
-            <img src="./static-assets/identity_theft.svg"/>
+            <img src="../static-assets/identity_theft.svg"/>
                 <h2>Identity Theft</h2>
                 <p>Protect your personal details because if someone steals them, they can pretend to be you</p>
         </div>
         <div class="cart">
-            <img src="./static-assets/call-svgrepo-com.svg"/>
+            <img src="../static-assets/call-svgrepo-com.svg"/>
                 <h2>Safe Communication</h2>
                 <p>Be careful online because messages or links can be traps to steal your information</p>
         </div>
@@ -99,4 +99,5 @@ class ReasonSection extends HTMLElement{
 
 
 customElements.define("reason-section", ReasonSection);
+
 
